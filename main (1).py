@@ -17,12 +17,12 @@ while not quit:
         else:
             number = int(number)
             count = count +1
-            print("Incorrect!")
+            print("Sorry Incorrect!")
             if number > random_number:
                 print("Too high try again")
             elif number < random_number:
                 print("Too low try again")
-    print("You are correct")
+    print("Correct!")
     print("You guessed correctly in {} tries!".format(count))
     play_again = input("Try Again? (Yes or No?)")
     play_again = play_again.lower()
@@ -31,4 +31,4 @@ while not quit:
     else:
         quit = True
 
-print("Thanks for Playing")
+print("Good Job! Thanks For Playing")
